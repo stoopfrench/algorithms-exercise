@@ -82,17 +82,29 @@
 
 //8
 
-// var randArray = [];
+// var myArray = [];
 
 // var generateRandom = function() {
 // for (var i=0; i<10; i++) {
 
-//     randArray.push(Math.round(Math.random() * 100))
-// 	}
-// console.log(randArray);
-// }
+//     myArray.push(Math.round(Math.random() * 100))
 
-// generateRandom();
+//     var randArray = [];
+		
+// 		for (var j = 0; j < myArray.length; j++) {
+
+// 			if (myArray.indexOf(myArray[j]) !== -1) {
+
+// 				randArray.push(myArray[j]);
+
+// 			}
+// 		}
+// 	}
+
+// 	console.log(randArray);
+// }
+                                                                                                                                                                 
+// generateRandom();  
 
 
 
