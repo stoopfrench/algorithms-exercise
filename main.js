@@ -74,32 +74,32 @@
 
 //6
 
-var myArray = [1,5,7,3,1,5,7];
-
-var limitArray = function(array, limit) {
-
-	var newArray = [];
-
-	for(var i = 0; i < array.length; i++) {
-
-		if(array[i] > limit) {
-
-			newArray.push(limit);
-		}
-		else {
-
-			newArray.push(array[i]);
-		}
-	}
-	console.log(newArray);
-}
-
-
-console.log(limitArray(myArray, 3));
 
 
 //7
 
+// var myArray = [1,5,7,3,1,5,7];
+
+// var limitArray = function(array, limit) {
+
+// 	var newArray = [];
+
+// 	for(var i = 0; i < array.length; i++) {
+
+// 		if(array[i] > limit) {
+
+// 			newArray.push(limit);
+// 		}
+// 		else {
+
+// 			newArray.push(array[i]);
+// 		}
+// 	}
+// 	console.log(newArray);
+// }
+
+
+// console.log(limitArray(myArray, 3));
 
 
 
