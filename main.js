@@ -91,8 +91,32 @@
 
 
 
-//5
+//5  --PARTIALLY COMPLETED (having trouble making it work with a sentence)
 
+
+// var translateToPigLatin =function(string) {
+
+//   var vowels = ['a','e','i','o','u'];
+//   var lettersArray = [];
+//   var pigString = '';
+
+//   if (vowels.indexOf(string[0]) >= 0) { 
+//     return string + 'way';
+//   }
+
+//   for (var i=0; i<string.length; i++){
+//     if (vowels.indexOf(string[i]) >= 0) { 
+//       return pigString + lettersArray.join("") + 'ay';
+//     } else { 
+    
+//       lettersArray.push(string[i]);
+//       pigString = string.slice(i+1);
+//     }
+//   }
+
+// }
+
+// console.log(translateToPigLatin('translate'));
 
  
 
@@ -328,10 +352,14 @@
 var daysBetween = function(string1, string2){
 
 	var dateArray1 = string1.split('/');
- var dateArray2 = string2.split('/');
+ 	var dateArray2 = string2.split('/');
 
-	console.log(dateArray1);
-	console.log(dateArray2);
+	var years = (dateArray1[0] - dateArray2[0]) * 365;
+
+	console.log(years);
+
+	var months = (dateArray1[1] - dateArray2[1]) 
+
 }
 
 daysBetween('2017/02/15', '2004/04/25');
@@ -339,7 +367,7 @@ daysBetween('2017/02/15', '2004/04/25');
 
 
 
-//15
+//15 --NOT COMPLETED (i really dont understand the question)
 
 
 
